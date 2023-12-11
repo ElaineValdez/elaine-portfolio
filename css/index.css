@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&family=Roboto+Slab:wght@300;600&display=swap');
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* transition: .3s ease; */
+
+}
+
+body
+{
+    background-color: #2A2D32; 
+    margin-top: 11%;
+}
+/* Content CSS */
+.content-container
+{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-container-name-introduction
+{
+
+    letter-spacing: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-container-name-introduction span
+{
+    color: #7EC8E3;
+}
+
+.content-container-name-introduction h2
+{
+    font-size: 1.8rem;
+}
+.content-container-profile-picture 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /* border: 1px solid #eee; */
+    
+}
+.content-container-profile-picture img
+{
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid #2A2D32;
+    border-radius: 100rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.social-media
+{
+    margin-top: 5rem;
+}
+.social-media-icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-media-icons .icons img
+{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+
+}
+/* Content Responsiveness */
+@media (min-width: 200px) and (max-width: 420px) 
+{
+    body
+    {
+        margin-top: 35%;
+    }
+}
+@media (min-width: 421px) and (max-width: 560px) 
+{
+    body
+    {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 850px) 
+{
+    body
+    {
+        margin-top: 15%;
+    }
+}
+/* 12:18     */
